@@ -65,7 +65,7 @@ export default function App() {
   const currentLabel = weather ? weather.city + ', ' + weather.country : null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 px-4 py-6">
+    <div className="min-h-screen bg-gradient-to-br from-red-900 via-red-800 to-red-700 px-4 py-6">
       <div className="max-w-md mx-auto space-y-4">
         {/* Header */}
         <header className="text-center">
